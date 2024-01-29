@@ -1,0 +1,7 @@
+Name = str(input("What's your Name ?" ) )
+print("Hello", Name)
+Age = int(input("can you please say your age?"))
+print("Good to know that you are",Age,"Years old")
+Place = str(input("Where are you from?"))
+print("Ooh great how is the weather in",Place)
+Weather = str(input())
