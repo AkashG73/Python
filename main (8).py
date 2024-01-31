@@ -1,0 +1,33 @@
+# TYPE CONVERSION (or) TYPE CASTING
+a =int('3')
+b =int(4.9)
+print(a,type(a))
+print(b,type(b))
+c =float(4)
+d =float("5.54")
+print(c,type(c))
+print(d,type(d))
+e =str(4.56)
+f =str(73)
+print(e,type(e))
+print(f,type(f))
+g =bool(73)
+h =bool(0)
+i =bool(-73)
+print(g,type(g)) # the result will be True because, any non zero value is considered as True
+print(h,type(h)) # the result will be False because, any zero value is considered as False
+print(i,type(i))
+j =bool(2.4)
+k =bool(0.0)
+l =bool(-2.4)
+print(j,type(j))
+print(k,type(k))
+print(l,type(l))
+m =bool("Akash")
+n =bool("2")
+o =bool("2.3")
+p =bool("")
+print(m,type(m)) # the string representation of any non empty string is always considered as True
+print(n,type(n))
+print(o,type(o))
+print(p,type(p)) # the sttring representation of any empty string is always considered as False
